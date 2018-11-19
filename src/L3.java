@@ -142,7 +142,7 @@ public class L3 {
         Stream.of(arr).flatMapToInt(x-> Arrays.stream(x)).forEach(x -> System.out.println(x));
         System.out.println(
         Stream.of("aa","bb","cc").flatMap(x->x.length()<2?Stream.of(x):Stream.of(x.substring(0,x.length()/2),x.substring(x.length()/2,x.length()))).mapToInt(x->x.length()).sum());
-
+        System.out.println("xxxxx");
 
        // );
 

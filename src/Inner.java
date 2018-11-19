@@ -4,7 +4,6 @@ public class Inner {
 class A {
     static int i;
     int b;
-    int b2;
 
     class B {
         void so() {
